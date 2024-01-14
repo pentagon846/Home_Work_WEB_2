@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pythonproject"
+version = "0.0.1"
+description = "Персональний помічник"
+authors = ["pentagon846 <pentagon846@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+questionary = "^2.0.1"
+termcolor = "^2.4.0"
+rich = "^13.7.0"
+requests = "^2.31.0"
+googletrans = "4.0.0-rc1"
+tqdm = "^4.66.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
